@@ -35,8 +35,16 @@ struct my_time real_time;
 
 
 // WHY IS THIS IN INTERUPT?!
-//interupt trigered if voltage on pin AIN0 (Aruino: PIN 0 ) is higher than voltage on pin AIN1 (Arduino PIN 1)... Well i fucked up a bit (long story) and probably should be in loop,
-// but it already works and i don't want to take out and reprogram ATtiny nor post a code i din't test. if you want to build is (for some unknow reason) you can improvewith it.
+//interupt trigered if voltage on pin AIN0 (Aruino: PIN 0 ) is higher than voltage on pin AIN1 (Arduino PIN 1)... 
+// so why in interupt and not loop ? Well long story i i kinda misread datasheet and trough that PIN1 is also A1 ... it isn't
+// I tried to put this in loop function but it didn't work (first digits from left were dim and only first from left was somehow bright 
+ //(probably because it displayed right digits fastly them after displaying last one it was checking button stuff while last digit was still 
+ // on and thus appeared bright)) 
+// ), i could use timer interupt
+// with would be more elegant 
+//
+//  TL:DR: I misread datasheet and used this interupt... but keeping this in this interuptit works(while puting this in loop fun isn't) 
+//  so i keep that this way. 
 //
 //  What it dose ?
 //  When it checks what button is pressed by checking what voltage (from voltage ledder) is on ANALOG_BUTTON pin
@@ -124,9 +132,7 @@ void add_Second()
     }
 
   } // end of if sec == 60
-  pinMode(ANALOG_BUTTON, INPUT_PULLUP); // you can proably throw that out but since i discovered it after puting all togheder i will not change that since
-                                         // i don't want to neither pull out Attiny13a from my
-                                        // clock nor publishing not tested code.
+ 
 
 
 } // end of interupt function
@@ -146,17 +152,13 @@ void setup ()
   pinMode(CLOCK_INTERUPT_PIN, INPUT); // i probably don't have to set up this pin as input but why not.
   // Attach interupt for clock signal
   attachInterrupt(digitalPinToInterrupt(CLOCK_INTERUPT_PIN), add_Second, FALLING);
-  // set ups interupt for ANA_COMP_vect interupt but you can probaably throw that out and put ANA_COMP_vect content into loop function
+  // set ups interupt for ANA_COMP_vect interupt
   ADMUX |= 0b01;
   ADCSRB |= 0b01000000;
   ACSR |= 0b00001010;
   interrupts();             // enable all interrupts
 
-  //   Set up serial for Atmega
-#ifdef __AVR_ATmega328P__
 
-  Serial.begin(9600);
-#endif
 
 }
 
