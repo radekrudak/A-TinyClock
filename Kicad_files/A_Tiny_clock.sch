@@ -453,187 +453,6 @@ Text GLabel 8000 3500 0    50   Input ~ 0
 LATCH_PIN
 Text GLabel 8000 3800 0    50   Input ~ 0
 CLOCK_PIN
-$Comp
-L LED:HDSP-4830_2 BAR4
-U 1 1 61E77B60
-P 10350 5800
-F 0 "BAR4" H 10350 5033 50  0000 C CNN
-F 1 "7 Segment display digit:7" H 10350 5124 50  0000 C CNN
-F 2 "Display:HDSP-4830" H 10350 5000 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 6000 50  0001 C CNN
-	1    10350 5800
-	-1   0    0    1   
-$EndComp
-Entry Wire Line
-	9950 6100 10050 6200
-Entry Wire Line
-	9950 6000 10050 6100
-Entry Wire Line
-	9950 5900 10050 6000
-Entry Wire Line
-	9950 5800 10050 5900
-Entry Wire Line
-	9950 5700 10050 5800
-Wire Wire Line
-	10550 5300 10550 5400
-Connection ~ 10550 5400
-Wire Wire Line
-	10550 5400 10550 5500
-Connection ~ 10550 5500
-Wire Wire Line
-	10550 5500 10550 5600
-Connection ~ 10550 5600
-Wire Wire Line
-	10550 5600 10550 5700
-Connection ~ 10550 5700
-Wire Wire Line
-	10550 5700 10550 5800
-Connection ~ 10550 5800
-Wire Wire Line
-	10550 5800 10550 5900
-Connection ~ 10550 5900
-Wire Wire Line
-	10550 5900 10550 6000
-Connection ~ 10550 6000
-Wire Wire Line
-	10550 6000 10550 6100
-Connection ~ 10550 6100
-Wire Wire Line
-	10550 6100 10550 6200
-Text GLabel 10550 5400 2    50   Input ~ 0
-Digit_7
-$Comp
-L LED:HDSP-4830_2 BAR3
-U 1 1 61E99A93
-P 10350 4450
-F 0 "BAR3" H 10350 3683 50  0000 C CNN
-F 1 "7 Segment display digit:6" H 10350 3774 50  0000 C CNN
-F 2 "Display:HDSP-4830" H 10350 3650 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 4650 50  0001 C CNN
-	1    10350 4450
-	-1   0    0    1   
-$EndComp
-Entry Wire Line
-	9950 4750 10050 4850
-Entry Wire Line
-	9950 4650 10050 4750
-Entry Wire Line
-	9950 4550 10050 4650
-Entry Wire Line
-	9950 4450 10050 4550
-Entry Wire Line
-	9950 4350 10050 4450
-Entry Wire Line
-	9950 4250 10050 4350
-Wire Wire Line
-	10550 3950 10550 4050
-Connection ~ 10550 4050
-Wire Wire Line
-	10550 4050 10550 4150
-Connection ~ 10550 4150
-Wire Wire Line
-	10550 4150 10550 4250
-Connection ~ 10550 4250
-Wire Wire Line
-	10550 4250 10550 4350
-Connection ~ 10550 4350
-Wire Wire Line
-	10550 4350 10550 4450
-Connection ~ 10550 4450
-Wire Wire Line
-	10550 4450 10550 4550
-Connection ~ 10550 4550
-Wire Wire Line
-	10550 4550 10550 4650
-Connection ~ 10550 4650
-Wire Wire Line
-	10550 4650 10550 4750
-Connection ~ 10550 4750
-Wire Wire Line
-	10550 4750 10550 4850
-Text GLabel 10550 4050 2    50   Input ~ 0
-Digit_6
-Entry Wire Line
-	9950 3000 10050 3100
-Entry Wire Line
-	9950 2900 10050 3000
-Entry Wire Line
-	9950 2800 10050 2900
-Entry Wire Line
-	9950 2700 10050 2800
-Entry Wire Line
-	9950 2500 10050 2600
-Entry Wire Line
-	9950 2600 10050 2700
-Connection ~ 10550 2500
-Connection ~ 10550 2600
-Connection ~ 10550 2700
-Connection ~ 10550 2800
-Connection ~ 10550 2900
-Connection ~ 10550 3000
-Connection ~ 10550 3100
-Wire Wire Line
-	10550 3000 10550 3100
-Wire Wire Line
-	10550 3100 10550 3200
-Wire Wire Line
-	10550 2900 10550 3000
-Wire Wire Line
-	10550 2800 10550 2900
-Wire Wire Line
-	10550 2700 10550 2800
-Wire Wire Line
-	10550 2600 10550 2700
-Wire Wire Line
-	10550 2500 10550 2600
-$Comp
-L LED:HDSP-4830_2 BAR2
-U 1 1 61EAAF98
-P 10350 2800
-F 0 "BAR2" H 10350 2033 50  0000 C CNN
-F 1 "7 Segment display digit:4" H 10350 2124 50  0000 C CNN
-F 2 "Display:HDSP-4830" H 10350 2000 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 3000 50  0001 C CNN
-	1    10350 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10550 2300 10550 2400
-Connection ~ 10550 2400
-Wire Wire Line
-	10550 2400 10550 2500
-Text GLabel 10550 2400 2    50   Input ~ 0
-Digit_4
-Wire Wire Line
-	10450 3400 10450 3600
-Text GLabel 10450 3450 2    50   Input ~ 0
-Dots
-Entry Wire Line
-	9950 3500 10050 3600
-Entry Wire Line
-	9950 3300 10050 3400
-$Comp
-L Device:LED D3
-U 1 1 61EC9C59
-P 10300 3600
-F 0 "D3" H 10293 3817 50  0000 C CNN
-F 1 "dots" H 10293 3726 50  0000 C CNN
-F 2 "" H 10300 3600 50  0001 C CNN
-F 3 "~" H 10300 3600 50  0001 C CNN
-	1    10300 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 61EC92AB
-P 10300 3400
-F 0 "D2" H 10293 3617 50  0000 C CNN
-F 1 "dots" H 10293 3526 50  0000 C CNN
-F 2 "" H 10300 3400 50  0001 C CNN
-F 3 "~" H 10300 3400 50  0001 C CNN
-	1    10300 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 8800 4000 2    50   Input ~ 0
 Digit_7
 Text GLabel 8800 3900 2    50   Input ~ 0
@@ -656,57 +475,6 @@ Text Notes 2250 5550 2    157  ~ 31
 Button array
 Text Notes 7000 1450 2    157  ~ 31
 Clock signal circuitry
-Text GLabel 10550 1050 2    50   Input ~ 0
-Digit_3
-Wire Wire Line
-	10550 1750 10550 1850
-Connection ~ 10550 1750
-Wire Wire Line
-	10550 1650 10550 1750
-Connection ~ 10550 1650
-Wire Wire Line
-	10550 1550 10550 1650
-Connection ~ 10550 1550
-Wire Wire Line
-	10550 1450 10550 1550
-Connection ~ 10550 1450
-Wire Wire Line
-	10550 1350 10550 1450
-Connection ~ 10550 1350
-Wire Wire Line
-	10550 1250 10550 1350
-Connection ~ 10550 1250
-Wire Wire Line
-	10550 1150 10550 1250
-Connection ~ 10550 1150
-Wire Wire Line
-	10550 1050 10550 1150
-Connection ~ 10550 1050
-Wire Wire Line
-	10550 950  10550 1050
-Entry Wire Line
-	9950 1250 10050 1350
-Entry Wire Line
-	9950 1350 10050 1450
-Entry Wire Line
-	9950 1450 10050 1550
-Entry Wire Line
-	9950 1550 10050 1650
-Entry Wire Line
-	9950 1650 10050 1750
-Entry Wire Line
-	9950 1750 10050 1850
-$Comp
-L LED:HDSP-4830_2 BAR1
-U 1 1 61EAD16A
-P 10350 1450
-F 0 "BAR1" H 10350 683 50  0000 C CNN
-F 1 "7 Segment display digit:4" H 10350 774 50  0000 C CNN
-F 2 "Display:HDSP-4830" H 10350 650 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 1650 50  0001 C CNN
-	1    10350 1450
-	-1   0    0    1   
-$EndComp
 Text Notes 9450 1150 2    157  ~ 31
 7 segment display \n& it's driver
 Wire Wire Line
@@ -715,56 +483,6 @@ Wire Wire Line
 	6450 3450 6150 3450
 Wire Notes Line
 	11000 6500 11000 550 
-Wire Notes Line
-	11000 550  7100 550 
-Wire Notes Line
-	7100 6500 11000 6500
-Wire Wire Line
-	10150 1250 10050 1250
-Wire Wire Line
-	10150 1350 10050 1350
-Wire Wire Line
-	10150 1450 10050 1450
-Wire Wire Line
-	10150 1550 10050 1550
-Wire Wire Line
-	10150 1650 10050 1650
-Wire Wire Line
-	10150 1750 10050 1750
-Wire Wire Line
-	10150 1850 10050 1850
-Wire Wire Line
-	10150 2600 10050 2600
-Wire Wire Line
-	10150 2700 10050 2700
-Wire Wire Line
-	10150 2800 10050 2800
-Wire Wire Line
-	10150 2900 10050 2900
-Wire Wire Line
-	10150 3000 10050 3000
-Wire Wire Line
-	10150 3100 10050 3100
-Wire Wire Line
-	10150 3400 10050 3400
-Wire Wire Line
-	10150 3600 10050 3600
-Wire Wire Line
-	10150 4250 10050 4250
-Wire Wire Line
-	10150 4350 10050 4350
-Wire Wire Line
-	10150 4450 10050 4450
-Wire Wire Line
-	10150 4550 10050 4550
-Wire Wire Line
-	10150 4650 10050 4650
-Wire Wire Line
-	10150 4750 10050 4750
-Wire Wire Line
-	10150 4850 10050 4850
-Text Notes 7150 2050 0    50   ~ 0
-So, i don't have 7 segment display symbols so\n let's pretend those BAR's are 7 segments display \nand those 2 LEDs in middle are dots on display. \nPS. I'm not sure to what pins of 7 segment display dots \nare conected but if i remember corectly those were B and C.\n But that dosn't matter sicne it is probably be diferend \ndepending on display and i salvage mine from microwave oven board \nand you probably can't buy one.\n 
 Wire Wire Line
 	8850 5150 8800 5150
 Wire Wire Line
@@ -785,14 +503,6 @@ NoConn ~ 8800 3300
 NoConn ~ 8800 3100
 NoConn ~ 6150 3750
 Wire Wire Line
-	10050 5800 10150 5800
-Wire Wire Line
-	10050 5900 10150 5900
-Wire Wire Line
-	10050 6000 10150 6000
-Wire Wire Line
-	10050 6100 10150 6100
-Wire Wire Line
 	3150 6550 3200 6550
 Wire Wire Line
 	2550 6550 2600 6550
@@ -804,132 +514,40 @@ NoConn ~ 3100 6550
 NoConn ~ 2950 6150
 NoConn ~ 2500 6150
 NoConn ~ 2500 6550
-Wire Bus Line
-	8950 5950 9950 5950
 Entry Wire Line
-	8850 5850 8950 5950
+	9150 5850 9250 5950
 Entry Wire Line
-	8850 5750 8950 5850
+	9150 5750 9250 5850
 Entry Wire Line
-	8850 5650 8950 5750
+	9150 5650 9250 5750
 Entry Wire Line
-	8850 5350 8950 5450
+	9150 5350 9250 5450
 Entry Wire Line
-	8850 5450 8950 5550
+	9150 5450 9250 5550
 Entry Wire Line
-	8850 5550 8950 5650
-Entry Wire Line
-	9950 3100 10050 3200
-Wire Wire Line
-	10150 6200 10050 6200
-Text Label 10050 6200 0    50   ~ 0
+	9150 5550 9250 5650
+Text Label 9150 5850 0    50   ~ 0
 Dis_A
-Text Label 10050 6100 0    50   ~ 0
+Text Label 9150 5750 0    50   ~ 0
 Dis_B
-Text Label 10050 6000 0    50   ~ 0
+Text Label 9150 5650 0    50   ~ 0
 Dis_C
-Text Label 10050 5900 0    50   ~ 0
+Text Label 9150 5550 0    50   ~ 0
 Dis_D
-Text Label 10050 5800 0    50   ~ 0
+Text Label 9150 5450 0    50   ~ 0
 Dis_E
-Text Label 10050 5700 0    50   ~ 0
-Dis_F
-Text Label 8850 5850 0    50   ~ 0
-Dis_A
-Text Label 8850 5750 0    50   ~ 0
-Dis_B
-Text Label 8850 5650 0    50   ~ 0
-Dis_C
-Text Label 8850 5550 0    50   ~ 0
-Dis_D
-Text Label 8850 5450 0    50   ~ 0
-Dis_E
-Text Label 8850 5350 0    50   ~ 0
+Text Label 9150 5350 0    50   ~ 0
 Dis_F
 NoConn ~ 8850 5150
-Wire Wire Line
-	10150 5700 10050 5700
 Entry Wire Line
-	9950 5600 10050 5700
-NoConn ~ 10150 5500
-NoConn ~ 10150 5400
-NoConn ~ 10150 5300
-Entry Wire Line
-	8850 5250 8950 5350
+	9150 5250 9250 5350
 Wire Wire Line
 	8850 5250 8800 5250
-Text Label 8850 5250 0    50   ~ 0
+Text Label 9150 5250 0    50   ~ 0
 Dis_G
-Wire Wire Line
-	10150 5600 10050 5600
-Entry Wire Line
-	9950 4150 10050 4250
-Wire Wire Line
-	10050 3200 10150 3200
-Entry Wire Line
-	9950 1150 10050 1250
-Text Label 10050 5600 0    50   ~ 0
-Dis_G
-Entry Wire Line
-	9950 5500 10050 5600
-NoConn ~ 10150 3950
-NoConn ~ 10150 4050
-NoConn ~ 10150 4150
-NoConn ~ 10150 2300
-NoConn ~ 10150 2400
-NoConn ~ 10150 2500
-NoConn ~ 10150 950 
-NoConn ~ 10150 1050
-NoConn ~ 10150 1150
-Text Label 10050 4350 0    50   ~ 0
-Dis_F
-Text Label 10050 4250 0    50   ~ 0
-Dis_G
-Text Label 10050 4450 0    50   ~ 0
-Dis_E
-Text Label 10050 4550 0    50   ~ 0
-Dis_D
-Text Label 10050 4650 0    50   ~ 0
-Dis_C
-Text Label 10050 4750 0    50   ~ 0
-Dis_B
-Text Label 10050 4850 0    50   ~ 0
-Dis_A
-Text Label 10050 2700 0    50   ~ 0
-Dis_F
-Text Label 10050 2600 0    50   ~ 0
-Dis_G
-Text Label 10050 2800 0    50   ~ 0
-Dis_E
-Text Label 10050 2900 0    50   ~ 0
-Dis_D
-Text Label 10050 3000 0    50   ~ 0
-Dis_C
-Text Label 10050 3100 0    50   ~ 0
-Dis_B
-Text Label 10050 3200 0    50   ~ 0
-Dis_A
-Text Label 10050 1350 0    50   ~ 0
-Dis_F
-Text Label 10050 1250 0    50   ~ 0
-Dis_G
-Text Label 10050 1450 0    50   ~ 0
-Dis_E
-Text Label 10050 1550 0    50   ~ 0
-Dis_D
-Text Label 10050 1650 0    50   ~ 0
-Dis_C
-Text Label 10050 1750 0    50   ~ 0
-Dis_B
-Text Label 10050 1850 0    50   ~ 0
-Dis_A
 Wire Wire Line
 	1200 2100 1200 2150
 Connection ~ 1200 2100
-Text Label 10050 3600 0    50   ~ 0
-Dis_A
-Text Label 10050 3400 0    50   ~ 0
-Dis_B
 NoConn ~ 2200 6150
 Wire Wire Line
 	3500 6850 3450 6850
@@ -1022,7 +640,6 @@ Wire Notes Line
 	4800 3000 650  3000
 Wire Notes Line
 	650  3000 650  4400
-Connection ~ 9950 5950
 Wire Notes Line
 	7100 550  7100 3200
 Wire Notes Line
@@ -1031,8 +648,6 @@ Wire Notes Line
 	7500 3200 7500 3650
 Wire Notes Line
 	7500 3650 7100 3650
-Wire Notes Line
-	7100 3650 7100 6500
 $Comp
 L power:GND #PWR0116
 U 1 1 61EF6FD2
@@ -1104,10 +719,475 @@ Wire Wire Line
 	8800 4500 8000 4500
 Wire Wire Line
 	8000 4000 8000 4500
+$Comp
+L Device:R R?
+U 1 1 61F1F6F1
+P 9000 5250
+F 0 "R?" V 8793 5250 50  0000 C CNN
+F 1 "1K" V 8884 5250 50  0000 C CNN
+F 2 "" V 8930 5250 50  0001 C CNN
+F 3 "~" H 9000 5250 50  0001 C CNN
+	1    9000 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F21CD7
+P 9000 5350
+F 0 "R?" V 8793 5350 50  0001 C CNN
+F 1 "1K" V 8884 5350 50  0001 C CNN
+F 2 "" V 8930 5350 50  0001 C CNN
+F 3 "~" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F39C6C
+P 9000 5450
+F 0 "R?" V 8793 5450 50  0001 C CNN
+F 1 "1K" V 8884 5450 50  0001 C CNN
+F 2 "" V 8930 5450 50  0001 C CNN
+F 3 "~" H 9000 5450 50  0001 C CNN
+	1    9000 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F4202A
+P 9000 5550
+F 0 "R?" V 8793 5550 50  0001 C CNN
+F 1 "1K" V 8884 5550 50  0001 C CNN
+F 2 "" V 8930 5550 50  0001 C CNN
+F 3 "~" H 9000 5550 50  0001 C CNN
+	1    9000 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F4A665
+P 9000 5650
+F 0 "R?" V 8793 5650 50  0001 C CNN
+F 1 "1K" V 8884 5650 50  0001 C CNN
+F 2 "" V 8930 5650 50  0001 C CNN
+F 3 "~" H 9000 5650 50  0001 C CNN
+	1    9000 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F4E8FD
+P 9000 5750
+F 0 "R?" V 8793 5750 50  0001 C CNN
+F 1 "1K" V 8884 5750 50  0001 C CNN
+F 2 "" V 8930 5750 50  0001 C CNN
+F 3 "~" H 9000 5750 50  0001 C CNN
+	1    9000 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F52B79
+P 9000 5850
+F 0 "R?" V 8793 5850 50  0001 C CNN
+F 1 "1K" V 8884 5850 50  0001 C CNN
+F 2 "" V 8930 5850 50  0001 C CNN
+F 3 "~" H 9000 5850 50  0001 C CNN
+	1    9000 5850
+	0    1    1    0   
+$EndComp
+Text Notes 9450 5950 1    50   ~ 0
+All of those resistors are 1K\n
 Wire Bus Line
-	9950 5950 9950 6150
+	9250 6150 9950 6150
+Text Label 10050 3400 0    50   ~ 0
+Dis_B
+Text Label 10050 3600 0    50   ~ 0
+Dis_A
+Text Label 10050 1850 0    50   ~ 0
+Dis_A
+Text Label 10050 1750 0    50   ~ 0
+Dis_B
+Text Label 10050 1650 0    50   ~ 0
+Dis_C
+Text Label 10050 1550 0    50   ~ 0
+Dis_D
+Text Label 10050 1450 0    50   ~ 0
+Dis_E
+Text Label 10050 1250 0    50   ~ 0
+Dis_G
+Text Label 10050 1350 0    50   ~ 0
+Dis_F
+Text Label 10050 3200 0    50   ~ 0
+Dis_A
+Text Label 10050 3100 0    50   ~ 0
+Dis_B
+Text Label 10050 3000 0    50   ~ 0
+Dis_C
+Text Label 10050 2900 0    50   ~ 0
+Dis_D
+Text Label 10050 2800 0    50   ~ 0
+Dis_E
+Text Label 10050 2600 0    50   ~ 0
+Dis_G
+Text Label 10050 2700 0    50   ~ 0
+Dis_F
+Text Label 10050 4850 0    50   ~ 0
+Dis_A
+Text Label 10050 4750 0    50   ~ 0
+Dis_B
+Text Label 10050 4650 0    50   ~ 0
+Dis_C
+Text Label 10050 4550 0    50   ~ 0
+Dis_D
+Text Label 10050 4450 0    50   ~ 0
+Dis_E
+Text Label 10050 4250 0    50   ~ 0
+Dis_G
+Text Label 10050 4350 0    50   ~ 0
+Dis_F
+NoConn ~ 10150 1150
+NoConn ~ 10150 1050
+NoConn ~ 10150 950 
+NoConn ~ 10150 2500
+NoConn ~ 10150 2400
+NoConn ~ 10150 2300
+NoConn ~ 10150 4150
+NoConn ~ 10150 4050
+NoConn ~ 10150 3950
+Entry Wire Line
+	9950 5500 10050 5600
+Text Label 10050 5600 0    50   ~ 0
+Dis_G
+Entry Wire Line
+	9950 1150 10050 1250
+Wire Wire Line
+	10050 3200 10150 3200
+Entry Wire Line
+	9950 4150 10050 4250
+Wire Wire Line
+	10150 5600 10050 5600
+NoConn ~ 10150 5300
+NoConn ~ 10150 5400
+NoConn ~ 10150 5500
+Entry Wire Line
+	9950 5600 10050 5700
+Wire Wire Line
+	10150 5700 10050 5700
+Text Label 10050 5700 0    50   ~ 0
+Dis_F
+Text Label 10050 5800 0    50   ~ 0
+Dis_E
+Text Label 10050 5900 0    50   ~ 0
+Dis_D
+Text Label 10050 6000 0    50   ~ 0
+Dis_C
+Text Label 10050 6100 0    50   ~ 0
+Dis_B
+Text Label 10050 6200 0    50   ~ 0
+Dis_A
+Wire Wire Line
+	10150 6200 10050 6200
+Entry Wire Line
+	9950 3100 10050 3200
+Wire Wire Line
+	10050 6100 10150 6100
+Wire Wire Line
+	10050 6000 10150 6000
+Wire Wire Line
+	10050 5900 10150 5900
+Wire Wire Line
+	10050 5800 10150 5800
+Text Notes 7150 2050 0    50   ~ 0
+So, i don't have 7 segment display symbols so\n let's pretend those BAR's are 7 segments display \nand those 2 LEDs in middle are dots on display. \nPS. I'm not sure to what pins of 7 segment display dots \nare conected but if i remember corectly those were B and C.\n But that dosn't matter sicne it is probably be diferend \ndepending on display and i salvage mine from microwave oven board \nand you probably can't buy one.\n 
+Wire Wire Line
+	10150 4850 10050 4850
+Wire Wire Line
+	10150 4750 10050 4750
+Wire Wire Line
+	10150 4650 10050 4650
+Wire Wire Line
+	10150 4550 10050 4550
+Wire Wire Line
+	10150 4450 10050 4450
+Wire Wire Line
+	10150 4350 10050 4350
+Wire Wire Line
+	10150 4250 10050 4250
+Wire Wire Line
+	10150 3600 10050 3600
+Wire Wire Line
+	10150 3400 10050 3400
+Wire Wire Line
+	10150 3100 10050 3100
+Wire Wire Line
+	10150 3000 10050 3000
+Wire Wire Line
+	10150 2900 10050 2900
+Wire Wire Line
+	10150 2800 10050 2800
+Wire Wire Line
+	10150 2700 10050 2700
+Wire Wire Line
+	10150 2600 10050 2600
+Wire Wire Line
+	10150 1850 10050 1850
+Wire Wire Line
+	10150 1750 10050 1750
+Wire Wire Line
+	10150 1650 10050 1650
+Wire Wire Line
+	10150 1550 10050 1550
+Wire Wire Line
+	10150 1450 10050 1450
+Wire Wire Line
+	10150 1350 10050 1350
+Wire Wire Line
+	10150 1250 10050 1250
+Wire Notes Line
+	11000 550  7100 550 
+$Comp
+L LED:HDSP-4830_2 BAR1
+U 1 1 61EAD16A
+P 10350 1450
+F 0 "BAR1" H 10350 683 50  0000 C CNN
+F 1 "7 Segment display digit:4" H 10350 774 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 10350 650 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 1650 50  0001 C CNN
+	1    10350 1450
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	9950 1750 10050 1850
+Entry Wire Line
+	9950 1650 10050 1750
+Entry Wire Line
+	9950 1550 10050 1650
+Entry Wire Line
+	9950 1450 10050 1550
+Entry Wire Line
+	9950 1350 10050 1450
+Entry Wire Line
+	9950 1250 10050 1350
+Wire Wire Line
+	10550 950  10550 1050
+Connection ~ 10550 1050
+Wire Wire Line
+	10550 1050 10550 1150
+Connection ~ 10550 1150
+Wire Wire Line
+	10550 1150 10550 1250
+Connection ~ 10550 1250
+Wire Wire Line
+	10550 1250 10550 1350
+Connection ~ 10550 1350
+Wire Wire Line
+	10550 1350 10550 1450
+Connection ~ 10550 1450
+Wire Wire Line
+	10550 1450 10550 1550
+Connection ~ 10550 1550
+Wire Wire Line
+	10550 1550 10550 1650
+Connection ~ 10550 1650
+Wire Wire Line
+	10550 1650 10550 1750
+Connection ~ 10550 1750
+Wire Wire Line
+	10550 1750 10550 1850
+Text GLabel 10550 1050 2    50   Input ~ 0
+Digit_3
+$Comp
+L Device:LED D2
+U 1 1 61EC92AB
+P 10300 3400
+F 0 "D2" H 10293 3617 50  0000 C CNN
+F 1 "dots" H 10293 3526 50  0000 C CNN
+F 2 "" H 10300 3400 50  0001 C CNN
+F 3 "~" H 10300 3400 50  0001 C CNN
+	1    10300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61EC9C59
+P 10300 3600
+F 0 "D3" H 10293 3817 50  0000 C CNN
+F 1 "dots" H 10293 3726 50  0000 C CNN
+F 2 "" H 10300 3600 50  0001 C CNN
+F 3 "~" H 10300 3600 50  0001 C CNN
+	1    10300 3600
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	9950 3300 10050 3400
+Entry Wire Line
+	9950 3500 10050 3600
+Text GLabel 10450 3450 2    50   Input ~ 0
+Dots
+Wire Wire Line
+	10450 3400 10450 3600
+Text GLabel 10550 2400 2    50   Input ~ 0
+Digit_4
+Wire Wire Line
+	10550 2400 10550 2500
+Connection ~ 10550 2400
+Wire Wire Line
+	10550 2300 10550 2400
+$Comp
+L LED:HDSP-4830_2 BAR2
+U 1 1 61EAAF98
+P 10350 2800
+F 0 "BAR2" H 10350 2033 50  0000 C CNN
+F 1 "7 Segment display digit:4" H 10350 2124 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 10350 2000 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 3000 50  0001 C CNN
+	1    10350 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 2500 10550 2600
+Wire Wire Line
+	10550 2600 10550 2700
+Wire Wire Line
+	10550 2700 10550 2800
+Wire Wire Line
+	10550 2800 10550 2900
+Wire Wire Line
+	10550 2900 10550 3000
+Wire Wire Line
+	10550 3100 10550 3200
+Wire Wire Line
+	10550 3000 10550 3100
+Connection ~ 10550 3100
+Connection ~ 10550 3000
+Connection ~ 10550 2900
+Connection ~ 10550 2800
+Connection ~ 10550 2700
+Connection ~ 10550 2600
+Connection ~ 10550 2500
+Entry Wire Line
+	9950 2600 10050 2700
+Entry Wire Line
+	9950 2500 10050 2600
+Entry Wire Line
+	9950 2700 10050 2800
+Entry Wire Line
+	9950 2800 10050 2900
+Entry Wire Line
+	9950 2900 10050 3000
+Entry Wire Line
+	9950 3000 10050 3100
+Text GLabel 10550 4050 2    50   Input ~ 0
+Digit_6
+Wire Wire Line
+	10550 4750 10550 4850
+Connection ~ 10550 4750
+Wire Wire Line
+	10550 4650 10550 4750
+Connection ~ 10550 4650
+Wire Wire Line
+	10550 4550 10550 4650
+Connection ~ 10550 4550
+Wire Wire Line
+	10550 4450 10550 4550
+Connection ~ 10550 4450
+Wire Wire Line
+	10550 4350 10550 4450
+Connection ~ 10550 4350
+Wire Wire Line
+	10550 4250 10550 4350
+Connection ~ 10550 4250
+Wire Wire Line
+	10550 4150 10550 4250
+Connection ~ 10550 4150
+Wire Wire Line
+	10550 4050 10550 4150
+Connection ~ 10550 4050
+Wire Wire Line
+	10550 3950 10550 4050
+Entry Wire Line
+	9950 4250 10050 4350
+Entry Wire Line
+	9950 4350 10050 4450
+Entry Wire Line
+	9950 4450 10050 4550
+Entry Wire Line
+	9950 4550 10050 4650
+Entry Wire Line
+	9950 4650 10050 4750
+Entry Wire Line
+	9950 4750 10050 4850
+$Comp
+L LED:HDSP-4830_2 BAR3
+U 1 1 61E99A93
+P 10350 4450
+F 0 "BAR3" H 10350 3683 50  0000 C CNN
+F 1 "7 Segment display digit:6" H 10350 3774 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 10350 3650 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 4650 50  0001 C CNN
+	1    10350 4450
+	-1   0    0    1   
+$EndComp
+Text GLabel 10550 5400 2    50   Input ~ 0
+Digit_7
+Wire Wire Line
+	10550 6100 10550 6200
+Connection ~ 10550 6100
+Wire Wire Line
+	10550 6000 10550 6100
+Connection ~ 10550 6000
+Wire Wire Line
+	10550 5900 10550 6000
+Connection ~ 10550 5900
+Wire Wire Line
+	10550 5800 10550 5900
+Connection ~ 10550 5800
+Wire Wire Line
+	10550 5700 10550 5800
+Connection ~ 10550 5700
+Wire Wire Line
+	10550 5600 10550 5700
+Connection ~ 10550 5600
+Wire Wire Line
+	10550 5500 10550 5600
+Connection ~ 10550 5500
+Wire Wire Line
+	10550 5400 10550 5500
+Connection ~ 10550 5400
+Wire Wire Line
+	10550 5300 10550 5400
+Entry Wire Line
+	9950 5700 10050 5800
+Entry Wire Line
+	9950 5800 10050 5900
+Entry Wire Line
+	9950 5900 10050 6000
+Entry Wire Line
+	9950 6000 10050 6100
+Entry Wire Line
+	9950 6100 10050 6200
+$Comp
+L LED:HDSP-4830_2 BAR4
+U 1 1 61E77B60
+P 10350 5800
+F 0 "BAR4" H 10350 5033 50  0000 C CNN
+F 1 "7 Segment display digit:7" H 10350 5124 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 10350 5000 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 8350 6000 50  0001 C CNN
+	1    10350 5800
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	9800 6500 9800 500 
+Wire Notes Line
+	11000 6500 7100 6500
+Wire Notes Line
+	7100 3650 7100 6500
 Wire Bus Line
-	8950 5350 8950 5950
+	9250 5350 9250 6150
 Wire Bus Line
-	9950 850  9950 5950
+	9950 850  9950 6150
+Text Notes 10950 6450 1    50   ~ 0
+This section represents how 7 seg display is wired internally.
 $EndSCHEMATC
