@@ -1,5 +1,5 @@
 <h1>A-TinyClock</h1>
-  Clock i made based on Attiny13a. In this README file you will find principle of operation while repo contains code and schematics.
+  Clock i made based on Attiny13a. In this README file you will find principle of operation while repo contains code and schematics. This documentation might have mistakes since i'am only human... rather inexperienced one.
 <h2>Analogue button(s)/User input</h2>
   How attiny13a detect keypresses from 5 buttons with only 1 pin ?
   Well side of each button is connected to mentioned above pin (ADC1/A1 physical pin 7), while other is connected to corresponding place on resistive ladder 
