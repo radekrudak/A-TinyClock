@@ -34,20 +34,9 @@ struct my_time {
 struct my_time real_time;
 
 
-// WHY IS THIS IN INTERUPT?!
-//interupt trigered if voltage on pin AIN0 (Aruino: PIN 0 ) is higher than voltage on pin AIN1 (Arduino PIN 1)... 
-// so why in interupt and not loop ? Well long story i i kinda misread datasheet and trough that PIN1 is also A1 ... it isn't
-// I tried to put this in loop function but it didn't work (first digits from left were dim and only first from left was somehow bright 
- //(probably because it displayed right digits fastly them after displaying last one it was checking button stuff while last digit was still 
- // on and thus appeared bright)) 
-// ), i could use timer interupt
-// with would be more elegant 
-//
-//  TL:DR: I misread datasheet and used this interupt... but keeping this in this interuptit works(while puting this in loop fun isn't) 
-//  so i keep that this way. 
-//
+
 //  What it dose ?
-//  When it checks what button is pressed by checking what voltage (from voltage ledder) is on ANALOG_BUTTON pin
+//  When ANA_COMP interupt is trigered it checks what button is pressed by checking what voltage (from voltage ledder) is on ANALOG_BUTTON pin
 //  but first it checks if it is below certain voltage if it isn't pin is pulled up and thus no button is pressed.
 //  but button press is registered only if interupt timer is equal to 255, with is incremented each time ANALOG_BUTTON is below certain value
 //  but zeroed if ANALOG_BUTTON is above said value. It ensures that button press will be detected only after voltage is below certain value for 255 times in a row.(interupt_timer will be zeroed by overflow)
